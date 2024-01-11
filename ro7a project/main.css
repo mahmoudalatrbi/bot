@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c7c7c7;
+}
+
+
+.all {
+    
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.project {
+    width: 30%;
+    height: fit-content;
+    background-color: rgb(18 96 170);
+    border-radius: 3%;
+    margin: auto;
+    padding-bottom: 1%;
+    transition: 1s;
+
+}
+
+.project:hover {
+    transform: scale(1.03);
+    box-shadow: 2px 3px 20px #00000075;
+}
+
+@media screen and (min-width: 768px) and (max-width:1022px) {
+    .project {
+        width: 350px;
+        height: 600px;
+        margin-top: 20%;
+    }
+
+    .divimg2 img {
+        height: 500px;
+
+    }
+
+    h2 {
+        margin-top: 50px;
+       
+    }
+
+    .btn {
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .project {
+        width: 350px;
+        height: 600px;
+        margin-top: 20%;
+    }
+
+    .divimg2 img {
+        height: 500px;
+
+    }
+
+    h2 {
+        margin-top: 50px;
+       
+    }
+
+    .btn {
+        margin-top: 10%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 479px) {
+    .project {
+        width: 300px;
+        height: 600px;
+        margin-top: 20%;
+    }
+
+    .divimg2 img {
+        height: 500px;
+
+    }
+
+    h2 {
+        margin-top: 50px;
+       
+    }
+
+    .btn {
+        margin-top: 10%;
+    }
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 50px;
+
+}
+
+.divimg2 img {
+    width: 100%;
+    height: 300px;
+    border-radius: 3%;
+    padding: 0;
+    transition: 1s;
+}
+
+.project:hover img {
+    transform: scale(0.9);
+}
+
+.a2 {
+    font-size: 20px;
+    text-decoration: none;
+    transition: 1s;
+
+}
+
+
+.btn {
+    width: 50%;
+    padding: 3% 0;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    background-color: rgb(4, 62, 117);
+    border: 1px solid rgb(4, 62, 117);
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 3px 20px #00000075;
+    background-color: rgba(255, 255, 255, 0.339);
+    border: none;
+    color: rgb(4, 62, 117);
+}
